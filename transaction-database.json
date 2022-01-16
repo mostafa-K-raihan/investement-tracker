@@ -29,5 +29,13 @@
     amount: 1200,
     orderId: 10054,
     from: 'Safe Foods',
-  }
+  },
+  {
+    time: '16/1/2022',
+    type: 'INVESTMENT',
+    amount: 50000,
+    orderId: 10414,
+    to: 'Darussunnat Nasariya Flour Mill',
+    link: 'https://biniyog.io/my-account/view-order/10414/',
+  },
 ]
