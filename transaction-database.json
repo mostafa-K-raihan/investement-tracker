@@ -1,6 +1,6 @@
 [
   {
-    "time": "21/9/2021",
+    "time": "21/09/2021",
     "type": "INVESTMENT",
     "amount": "40000",
     "to": "Safe Foods",
@@ -24,19 +24,35 @@
     "orderId": "10325"
   },
   {
-    "time": "9/1/2022",
+    "time": "09/01/2022",
     "type": "PROFIT RETURN",
     "amount": "1200",
     "orderId": "10054",
     "from": "Safe Foods"
   },
   {
-    "time": "16/1/2022",
+    "time": "16/01/2022",
     "type": "INVESTMENT",
-    "amount": 50000,
-    "orderId": 1014,
+    "amount": "50000",
+    "orderId": "10414",
     "to": "Darussunnat Nasariya Flour Mill",
     "link": "https://biniyog.io/my-account/view-order/10414/"
+  },
+  {
+    "time": "05/02/2022",
+    "type": "INVESTMENT",
+    "amount": 10000,
+    "orderId": 10409,
+    "to": "Memsaheb",
+    "link": "https://biniyog.io/my-account/view-order/10490/"
+  },
+  {
+    "time": "05/02/2022",
+    "type": "INVESTMENT",
+    "amount": 20000,
+    "orderId": 10569,
+    "to": "Ahlan Agro",
+    "link": "https://biniyog.io/my-account/view-order/10569/"
   }
 ]
 
