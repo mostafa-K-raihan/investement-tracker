@@ -1,41 +1,42 @@
 [
   {
-    time: '21/9/2021',
-    type: 'INVESTMENT',
-    amount: 40000,
-    to: 'Safe Foods',
-    link: 'https://biniyog.io/my-account/view-order/10054/',
-    orderId: 10054,
+    "time": "21/9/2021",
+    "type": "INVESTMENT",
+    "amount": "40000",
+    "to": "Safe Foods",
+    "link": "https://biniyog.io/my-account/view-order/10054/",
+    "orderId": "10054"
   },
   {
-    time: '24/11/2021',
-    type: 'INVESTMENT',
-    amount: 50000,
-    to: 'Sticker Driver',
-    link: 'https://biniyog.io/my-account/view-order/10252/',
-    orderId: 10252,
+    "time": "24/11/2021",
+    "type": "INVESTMENT",
+    "amount": "50000",
+    "to": "Sticker Driver",
+    "link": "https://biniyog.io/my-account/view-order/10252/",
+    "orderId": "10252"
   },
   {
-    time: '27/12/2021',
-    type: 'INVESTMENT',
-    amount: 60000,
-    to: 'Interactive Care',
-    link: 'https://biniyog.io/my-account/view-order/10325/',
-    orderId: 10325,
+    "time": "27/12/2021",
+    "type": "INVESTMENT",
+    "amount": "60000",
+    "to": "Interactive Care",
+    "link": "https://biniyog.io/my-account/view-order/10325/",
+    "orderId": "10325"
   },
   {
-    time: '9/1/2022',
-    type: 'PROFIT RETURN',
-    amount: 1200,
-    orderId: 10054,
-    from: 'Safe Foods',
+    "time": "9/1/2022",
+    "type": "PROFIT RETURN",
+    "amount": "1200",
+    "orderId": "10054",
+    "from": "Safe Foods"
   },
   {
-    time: '16/1/2022',
-    type: 'INVESTMENT',
-    amount: 50000,
-    orderId: 10414,
-    to: 'Darussunnat Nasariya Flour Mill',
-    link: 'https://biniyog.io/my-account/view-order/10414/',
-  },
+    "time": "16/1/2022",
+    "type": "INVESTMENT",
+    "amount": 50000,
+    "orderId": 1014,
+    "to": "Darussunnat Nasariya Flour Mill",
+    "link": "https://biniyog.io/my-account/view-order/10414/"
+  }
 ]
+
