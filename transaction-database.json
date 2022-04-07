@@ -47,12 +47,20 @@
     "link": "https://biniyog.io/my-account/view-order/10490/"
   },
   {
-    "time": "05/02/2022",
+    "time": "21/02/2022",
     "type": "INVESTMENT",
     "amount": 20000,
     "orderId": 10569,
     "to": "Ahlan Agro",
     "link": "https://biniyog.io/my-account/view-order/10569/"
+  },
+  {
+    "time": "28/03/2022",
+    "type": "INVESTMENT",
+    "amount": 10000,
+    "orderId": 10889,
+    "to": "JUICEE Fruit Drinks",
+    "link": "https://biniyog.io/my-account/view-order/10889/"
   }
 ]
 
