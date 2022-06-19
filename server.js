@@ -1,7 +1,10 @@
 import express from "express";
 import fs from "fs";
+import cors from "cors";
 
 const app = express();
+
+app.use(cors());
 
 function calcAmount(arr) {
   return arr.reduce((acc, d) => {
@@ -10,7 +13,7 @@ function calcAmount(arr) {
   }, 0);
 }
 
-app.get("/", (req, res) => {
+app.get("/backend", (req, res) => {
   fs.readFile("./transaction-database.json", (err, data) => {
     err && console.log(err);
     const { data: transaction } = JSON.parse(data);
@@ -33,7 +36,7 @@ app.get("/", (req, res) => {
       return acc;
     }, {});
 
-    res.send({
+    res.json({
       totalInvestment,
       totalProfit,
       individualProfits,
