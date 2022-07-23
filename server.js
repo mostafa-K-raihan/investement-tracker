@@ -1,10 +1,29 @@
 import express from "express";
 import fs from "fs";
 import cors from "cors";
+import mongoose from "mongoose";
+import * as dotenv from "dotenv";
+import { importModels } from "./models.js";
+import createAllRoute from "./routes/index.js";
 
 const app = express();
 
 app.use(cors());
+dotenv.config({ path: "./.env" });
+
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+initMongo().catch((err) => console.log(err));
+
+async function initMongo() {
+  // await mongoose.connect(`${process.env.DB_URI}`);
+  // console.log("Connected to remote mongodb cluster");
+  // importModels();
+  // const Kitten = mongoose.models.Transactions;
+  // const k = await Kitten.find();
+  // console.log(k);
+}
 
 function calcAmount(arr) {
   return arr.reduce((acc, d) => {
@@ -12,6 +31,10 @@ function calcAmount(arr) {
     return acc;
   }, 0);
 }
+
+app.get("/", (req, res) => {
+  res.send("Hey Dude");
+});
 
 app.get("/backend", (req, res) => {
   fs.readFile("./transaction-database.json", (err, data) => {
@@ -43,11 +66,6 @@ app.get("/backend", (req, res) => {
       individualInvestments,
     });
   });
-  // res.send('Hello from investment tracker app');
-
-  //
 });
 
-app.listen(3768, () => {
-  console.log("Hey mate on port 3768");
-});
+createAllRoute(app);
