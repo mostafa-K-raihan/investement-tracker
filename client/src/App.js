@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [data, setData] = useState({});
+  const [isDialogShown, showDialog] = useState(false);
 
   useEffect(() => {
     // async function getData() {
@@ -57,22 +58,8 @@ function App() {
             )
           )}
         </div>
-        {/* <div>
-          <h2>Individual Profits</h2>
-
-          {Object.entries(data.individualProfits || {}).map(([k, v], index) => (
-            <p
-              key={`_${index}`}
-              className={
-                data.individualInvestments[k] <= data.individualProfits[k]
-                  ? "break-even"
-                  : "not-break-even"
-              }
-            >
-              {k}: {v} BDT
-            </p>
-          ))}
-        </div> */}
+        <dialog open={isDialogShown}>Hello</dialog>
+        <button onClick={() => showDialog(true)}>Update Investment</button>
       </section>
     </div>
   );
