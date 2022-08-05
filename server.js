@@ -3,27 +3,29 @@ import fs from "fs";
 import cors from "cors";
 import mongoose from "mongoose";
 import * as dotenv from "dotenv";
-import { importModels } from "./models.js";
+import importAllModels from "./models/index.js";
 import createAllRoute from "./routes/index.js";
+import bodyParser from "body-parser";
 
 const app = express();
 
 app.use(cors());
+
+app.use(bodyParser.json());
 dotenv.config({ path: "./.env" });
 
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
-initMongo().catch((err) => console.log(err));
 
-async function initMongo() {
-  // await mongoose.connect(`${process.env.DB_URI}`);
-  // console.log("Connected to remote mongodb cluster");
-  // importModels();
-  // const Kitten = mongoose.models.Transactions;
-  // const k = await Kitten.find();
-  // console.log(k);
-}
+(async function initMongo() {
+  await mongoose.connect(`${process.env.DB_URI}`);
+  console.log("Connected to remote mongodb cluster");
+  await importAllModels();
+  console.log("All models have been imported");
+
+  createAllRoute(app);
+})();
 
 function calcAmount(arr) {
   return arr.reduce((acc, d) => {
@@ -33,7 +35,7 @@ function calcAmount(arr) {
 }
 
 app.get("/", (req, res) => {
-  res.send("Hey Dude");
+  res.send("Welcome from Investment Tracker");
 });
 
 app.get("/backend", (req, res) => {
@@ -67,5 +69,3 @@ app.get("/backend", (req, res) => {
     });
   });
 });
-
-createAllRoute(app);
