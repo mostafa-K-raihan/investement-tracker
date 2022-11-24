@@ -180,6 +180,14 @@
       "from": "Ahan Foods"
     },
     {
+      "time": "08/09/2022",
+      "type": "INVESTMENT",
+      "amount": "20000",
+      "orderId": "11555",
+      "to": "Interactive Care",
+      "link": "https://biniyog.io/my-account/view-order/11555/"
+    },
+    {
       "time": "03/10/2022",
       "type": "PROFIT RETURN",
       "amount": "10700",
