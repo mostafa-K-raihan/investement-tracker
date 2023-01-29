@@ -256,7 +256,9 @@
       "type": "INVESTMENT",
       "amount": "20000",
       "orderId": "12410",
-      "from": "Shopan Enterprise"
+      "to": "Shopan Enterprise",
+      "link": "https://biniyog.io/my-account/view-order/12410/",
+      "onBehalfOf": "Rahma"
     }
   ] 
 }
