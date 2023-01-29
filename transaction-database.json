@@ -250,6 +250,13 @@
       "amount": "8120",
       "orderId": "11555",
       "from": "Interactive Care 2"
+    },
+    {
+      "time": "26/01/2023",
+      "type": "INVESTMENT",
+      "amount": "20000",
+      "orderId": "12410",
+      "from": "Shopan Enterprise"
     }
   ] 
 }
