@@ -356,28 +356,28 @@
         "Mar24": "15",
         "Apr24": "20",
         "May24": "20"
-      },
-      {
-        "time": "27/05/2023",
-        "type": "PROFIT RETURN",
-        "amount": "8840",
-        "orderId": "12410",
-        "from": "Shopan Enterprise"
-      },
-      {
-        "time": "30/05/2023",
-        "type": "INVESTMENT",
-        "amount": "20000",
-        "orderId": "13621",
-        "to": "Shopan Enterprise 2",
-        "link": "https://biniyog.io/my-account/view-order/13621/",
-        "duration": "7 months",
-        "expectedROI%": "9.91",
-        "contract": {
-          "Nov23": "25",
-          "Dec23": "25",
-          "Jan24": "50"
-        }
+      }
+    },
+    {
+      "time": "27/05/2023",
+      "type": "PROFIT RETURN",
+      "amount": "8840",
+      "orderId": "12410",
+      "from": "Shopan Enterprise"
+    },
+    {
+      "time": "30/05/2023",
+      "type": "INVESTMENT",
+      "amount": "20000",
+      "orderId": "13621",
+      "to": "Shopan Enterprise 2",
+      "link": "https://biniyog.io/my-account/view-order/13621/",
+      "duration": "7 months",
+      "expectedROI%": "9.91",
+      "contract": {
+        "Nov23": "25",
+        "Dec23": "25",
+        "Jan24": "50"
       }
     }
   ] 
