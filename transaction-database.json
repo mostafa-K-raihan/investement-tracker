@@ -379,6 +379,13 @@
         "Dec23": "25",
         "Jan24": "50"
       }
+    },
+    {
+      "time": "08/06/2023",
+      "type": "PROFIT RETURN",
+      "amount": "3,289",
+      "orderId": "11117",
+      "from": "Ahan Foods"
     }
   ] 
 }
