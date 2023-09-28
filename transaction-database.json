@@ -481,6 +481,48 @@
       "amount": "14324",
       "orderId": "11325",
       "from": "Sticker Driver 2"
+    },
+    {
+      "time": "20/09/2023",
+      "type": "PROFIT RETURN",
+      "amount": "2875",
+      "orderId": "10414",
+      "from": "Darussunnat Nasariya Flour Mill"
+    },
+    {
+      "time": "26/09/2023",
+      "type": "PROFIT RETURN",
+      "amount": "2240",
+      "orderId": "13419",
+      "from": "Chillox"
+    },
+    {
+      "time": "21/09/2023",
+      "type": "PROFIT RETURN",
+      "amount": "500",
+      "orderId": "10889",
+      "from": "JUICEE Fruit Drinks"
+    },
+    {
+      "time": "27/09/2023",
+      "type": "PROFIT RETURN",
+      "amount": "22511",
+      "orderId": "11117",
+      "from": "Ahan Foods"
+    },
+    {
+      "time": "27/09/2023",
+      "type": "PROFIT RETURN",
+      "amount": "6960",
+      "orderId": "11555",
+      "from": "Interactive Care 2"
+    }
+    {
+      "time": "27/09/2023",
+      "type": "PROFIT RETURN",
+      "amount": "1170",
+      "orderId": "13421",
+      "from": "S.K. Footware"
     }
   ]
 }
