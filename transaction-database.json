@@ -672,6 +672,14 @@
       "from": "Shopan Enterprise 2"
     },
     {
+      "time": "20/01/2024",
+      "type": "INVESTMENT",
+      "amount": "100000",
+      "orderId": "51742",
+      "to": "Project with Chaldal",
+      "link": "https://biniyog.io/my-account/view-order/51742/"
+    },
+    {
       "time": "24/01/2024",
       "type": "PROFIT RETURN",
       "amount": "18920",
@@ -789,6 +797,14 @@
       "amount": "6720",
       "orderId": "14656",
       "from": "Ad-din Organic Shop [3]"
+    },
+    {
+      "time": "27/05/2024",
+      "type": "INVESTMENT",
+      "amount": "100000",
+      "orderId": "53105",
+      "to": "Chaldal [Project 2]",
+      "link": "https://biniyog.io/my-account/view-order/53105/"
     },
     {
       "time": "29/05/2024",
