@@ -843,7 +843,7 @@
       "from": "Project with Chaldal"
     },
     {
-      "time": "8/07/2024",
+      "time": "08/07/2024",
       "type": "PROFIT RETURN",
       "amount": "1942",
       "orderId": "13421",
@@ -862,6 +862,34 @@
       "amount": "15120",
       "orderId": "14656",
       "from": "Ad-din Organic Shop [3]"
-    }
+    },
+    {
+      "time": "22/09/2024",
+      "type": "PROFIT RETURN",
+      "amount": "1000",
+      "orderId": "10889",
+      "from": "JUICEE Fruit Drinks"
+    },
+    {
+      "time": "23/09/2024",
+      "type": "PROFIT RETURN",
+      "amount": "3823",
+      "orderId": "53105",
+      "from": "Chaldal [Project 2]"
+    },
+     {
+      "time": "14/07/2024",
+      "type": "PROFIT RETURN",
+      "amount": "796",
+      "orderId": "13421",
+      "from": "S.K. Footware"
+    },
+    {
+      "time": "20/04/2022",
+      "type": "PROFIT RETURN",
+      "amount": "1700",
+      "orderId": "10414",
+      "from": "Darussunnat Nasariya Flour Mill"
+    },
   ]
 }
