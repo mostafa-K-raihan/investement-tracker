@@ -906,6 +906,13 @@
       "from": "Darussunnat Nasariya Flour Mill"
     },
     {
+      "time": "20/11/2025",
+      "type": "PROFIT RETURN",
+      "amount": "15098",
+      "orderId": "53814",
+      "from": "Chaldal [Project 3]"
+    },
+    {
       "time": "04/12/2024",
       "type": "PROFIT RETURN",
       "amount": "104327.80",
@@ -943,7 +950,7 @@
     {
       "time": "16/02/2025",
       "type": "PROFIT RETURN",
-      "amount": "309417.54",
+      "amount": "309417",
       "orderId": "53814",
       "from": "Chaldal [Project 3]"
     },
